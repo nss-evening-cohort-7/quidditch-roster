@@ -1,3 +1,4 @@
-body {
-  background-color: slategray;
-}
+@import './components/nav';
+@import './components/cardList';
+
+body { background-color: grey; }
