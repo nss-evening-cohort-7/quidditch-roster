@@ -29,6 +29,10 @@ nav {
     margin-top: 76px;
   }
 
+  .brand-logo {
+    @include default-font(2em);
+  }
+
   ul {
     list-style-type: none;
     -webkit-margin-before: 0px;
@@ -36,6 +40,10 @@ nav {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 0px;
+  }
+
+  li {
+    @include default-font(15px);
   }
 
   
