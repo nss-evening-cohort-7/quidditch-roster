@@ -27,6 +27,7 @@ const createPlayerCard = (player) => {
   playerCard.appendChild(playerPosition);
 
   return playerCard;
+
 };
 
 module.exports = {
